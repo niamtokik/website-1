@@ -1,0 +1,86 @@
+/* 
+ */
+
+/* global parameter */
+body {
+    color: #adadad;
+    background-color: #fefefe;
+}
+
+/* main slide and header menu*/
+
+#we-present {
+    color: black;
+}
+
+.carousel-inner {
+    background-color: #d1cfc2;
+    background-image: url('img/back.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+#we-support {
+    text-align: center;
+    height: 32rem;
+}
+
+#we-rules {
+    height: 12rem;
+    background-image: url('img/forest.jpg');
+    background-size: cover;
+    color: #fefefe;
+}
+
+#we-are-safe {
+    height: 32rem;
+    background-image: url('img/green-back.jpg');
+    background-size: cover;
+    color: #fefefe;
+}
+
+.we-configure {
+    height: 32rem;
+}
+
+.we-integrate {
+    height: 32rem;
+}
+
+.we-use {
+    height: 32rem;
+}
+
+.we-contact {
+    height: 32rem;
+}
+
+.we-subscribe {
+    height: 32rem;
+}
+
+.we-footer {
+    height: 32rem;
+}
