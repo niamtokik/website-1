@@ -55,10 +55,20 @@ body {
 }
 
 #we-are-safe {
-    height: 32rem;
     background-image: url('img/green-back.jpg');
     background-size: cover;
     color: #fefefe;
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+
+#we-are-safe .container {
+    margin-bottom: 1rem;
+}
+
+#we-are-safe img {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .we-configure {
