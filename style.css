@@ -18,6 +18,7 @@ body {
     background-color: #fefefe;
 }
 
+
 /* main slide and header menu*/
 
 #we-present {
@@ -66,7 +67,7 @@ body {
 
 .carousel-item {
     height: 32rem;
-    padding-top: 9rem;
+    padding-top: 9rem; 
 }
 
 .carousel-item > img {
@@ -127,26 +128,30 @@ body {
     margin-bottom: 0.5em;
 }
 
-.we-configure {
+#we-configure {
     height: 32rem;
 }
 
-.we-integrate {
+#we-integrate {
     height: 32rem;
 }
 
-.we-use {
+#we-use {
     height: 32rem;
 }
 
-.we-contact {
+#we-contact {
     height: 32rem;
 }
 
-.we-subscribe {
+#we-subscribe {
     height: 32rem;
 }
 
-.we-footer {
+#we-footer {
     height: 32rem;
+}
+
+#we-copyright {
+    
 }
