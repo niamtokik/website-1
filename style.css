@@ -1,6 +1,17 @@
 /* 
  */
 
+@font-face {
+    font-family: 'Manophiser'; 
+    src: url('fonts/Manophiser.otf'); 
+}
+
+@font-face {
+    font-family: 'Ringbearer'; 
+    src: url('fonts/Ringbearer.ttf'); 
+}
+
+
 /* global parameter */
 body {
     color: #adadad;
@@ -21,6 +32,29 @@ body {
     background-size: cover;
 }
 
+.carousel .we-menu {
+    margin-top: 2em;
+    font-size: x-large;
+}
+
+.carousel a {
+    color: #fefefe;
+}
+
+.carousel a:visited {
+    color: #fefefe;
+}
+
+.carousel a:active {
+    color: #fefefe;
+}
+
+.carousel .we-menu a:hover {
+    color: #fefefe;
+    border-bottom: 2px solid orange;
+    text-decoration: none;
+}
+
 .carousel {
     margin-bottom: 4rem;
 }
@@ -32,6 +66,7 @@ body {
 
 .carousel-item {
     height: 32rem;
+    padding-top: 9rem;
 }
 
 .carousel-item > img {
@@ -42,16 +77,34 @@ body {
     height: 32rem;
 }
 
+.we-title {
+    font-family: 'Ringbearer';
+    text-shadow: 1px 1px 2px white; 
+}
+
+.we-title h1 {
+    font-size: 6em;
+}
+
+.we-title h2 {
+    font-size: 3em;
+}
+
+/**/
 #we-support {
     text-align: center;
     height: 32rem;
 }
 
 #we-rules {
-    height: 12rem;
+    height: 14rem;
     background-image: url('img/forest.jpg');
     background-size: cover;
     color: #fefefe;
+    font-family: 'Ringbearer';
+}
+
+#we-rules .container {
 }
 
 #we-are-safe {
