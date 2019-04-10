@@ -25,6 +25,10 @@ body {
     color: black;
 }
 
+#we-present button {
+    background-color: orange;
+}
+
 .carousel-inner {
     background-color: #d1cfc2;
     background-image: url('img/back.jpg');
@@ -34,12 +38,14 @@ body {
 }
 
 .carousel .we-menu {
-    margin-top: 2em;
+    margin-top: 1em;
     font-size: x-large;
 }
 
+
 .carousel a {
     color: #fefefe;
+    text-shadow: 1px 1px 2px black;
 }
 
 .carousel a:visited {
@@ -98,6 +104,9 @@ body {
     height: 32rem;
 }
 
+
+
+
 /**/
 #we-rules {
     height: 20rem;
@@ -152,11 +161,30 @@ body {
 
 /**/
 #we-contact {
+    padding-top: 2em;
     color: white;
-    height: 32rem;
     background-image: url('img/geek.jpg');
-    background-size: cover;
-    background-position: left;
+    background-size: none;
+    background-position: top;
+    flex-direction: column;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#we-contact-title {
+    padding-top: 3em;
+}
+
+#we-contact-about {
+    
+    color: black;
+    background-color: white;
+    opacity: 0.8;
+    width: 20rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    padding: 1em;
+    padding-bottom: 0;
 }
 
 /**/
