@@ -98,6 +98,7 @@ body {
     height: 32rem;
 }
 
+/**/
 #we-rules {
     height: 20rem;
     background-image: url('img/forest.jpg');
@@ -110,7 +111,7 @@ body {
     display: flex;*/
 }
 
-
+/**/
 #we-are-safe {
     background-image: url('img/green-back.jpg');
     background-size: cover;
@@ -128,30 +129,49 @@ body {
     margin-bottom: 0.5em;
 }
 
+/**/
 #we-configure {
     height: 32rem;
+    color: black;
 }
 
+/**/
 #we-integrate {
     height: 32rem;
+    background-image: url('img/brown-back.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
 
+/**/
 #we-use {
     height: 32rem;
+    color: black;
 }
 
+/**/
 #we-contact {
+    color: white;
     height: 32rem;
+    background-image: url('img/geek.jpg');
+    background-size: cover;
+    background-position: left;
 }
 
+/**/
 #we-subscribe {
     height: 32rem;
 }
 
+/**/
 #we-footer {
-    height: 32rem;
+    background-color: #282828;
+    color: white;
 }
 
+/**/
 #we-copyright {
-    
+    background-color: #191919;
 }
+
