@@ -155,8 +155,9 @@ body {
 
 /**/
 #we-use {
-    height: 32rem;
+    padding-top: 2rem;
     color: black;
+    padding-bottom: 2rem;
 }
 
 /**/
@@ -189,13 +190,22 @@ body {
 
 /**/
 #we-subscribe {
-    height: 32rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#we-subscribe-form {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /**/
 #we-footer {
+    padding-top: 2rem;
     background-color: #282828;
     color: white;
+    padding-bottom: 2rem;
 }
 
 /**/
