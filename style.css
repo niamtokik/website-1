@@ -60,7 +60,7 @@ body {
 
 .carousel .we-menu a:hover {
     color: #fefefe;
-    border-bottom: 2px solid orange;
+    border-bottom: 4px solid orange;
     text-decoration: none;
 }
 
@@ -176,20 +176,14 @@ body {
     height: 20rem;
 }
 
-.was-picture {
-    margin: 0;
-    padding: 0;
-    width: 4em;
-    height: 4em;
-    margin-bottom: 1em;
-}
-
 /**/
 #we-configure {
     color: black;
     margin-top: 3rem;
     margin-bottom: 3rem;
     width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #we-configure h1 {
@@ -298,10 +292,15 @@ body {
 
 #we-footer h1 {
     font-size: large;
+    padding-bottom: 1em;
 }
 
 #we-footer p {
     font-size: small;
+}
+
+#we-footer img {
+    padding: 0.1em;
 }
 
 /**/
