@@ -278,7 +278,13 @@ body {
     background-color: white;
     color: #8f8475;
     border-style: none;
+    border-radius: 0px 9px 9px 0px;
+}
 
+#ws-form {
+    background-color: #8f8475;
+    padding: 2px 2px 2px 2px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 /**/
