@@ -132,8 +132,6 @@ body {
     color: #fefefe;
     text-shadow: 1px 1px 2px black;
     font-family: 'Ringbearer';
-    /* align-items: flex-end;
-    display: flex;*/
 }
 
 /**/
@@ -262,6 +260,10 @@ body {
     border-radius: 10px 0px 0px 10px;    
 }
 
+#we-subscribe input::placeholder {
+    color: white;
+}
+
 #we-subscribe-form {
     flex-direction: column;
     margin-left: auto;
@@ -298,6 +300,15 @@ body {
 
 #we-footer p {
     font-size: small;
+}
+
+#we-footer a {
+    color: white;
+}
+
+#we-footer a:hover {
+    color: #8f8475;
+    text-decoration: none;
 }
 
 #we-footer img {
