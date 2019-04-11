@@ -44,12 +44,12 @@
 
     <!-- second slide about supporting software -->
     <div id="we-support" class="carousel slide active">
-      <div class="container">
+      <div id="we-support-title" class="container">
 	<h1>We support</h1>
 	<p>Use your favorite language with RunAs today.</p>
       </div>
       
-      <div class="container">
+      <div id="we-support-content" class="container">
 	<div class="row">
 	  <div class="col">
 	    <a><img src="img/logo-ansible.png" alt="Ansible"></a>
@@ -94,7 +94,7 @@
 
     <!-- safety slide with features -->
     <div id="we-are-safe" class="slide text-center">
-      <div class="container">
+      <div id="we-are-safe-title" class="container">
 	<h1>Safe and Easy Configuration Management</h1>
 	<p>Accelerate your development and minimize the risk of
 	  deploying new configuration with a simple way to enforce
@@ -102,22 +102,22 @@
 	  cloud...</p>
       </div>
 
-      <div class="container text-center">
+      <div id="we-are-safe-content" class="container text-center">
       <div class="row">
-	<div class="f-safety col align-self-center">
-	  <img src="img/cadenas.png" class="rounded mx-auto d-block" />
+	<div class="f-safety col align-self-center was-content">
+	  <img src="img/cadenas.png" class="rounded mx-auto d-block was-picture" />
 	  <p>We promote safety</p>
 	  <img src="img/arrow.png" />
 	  <p>Typed descriptive language</p>
 	</div>
-	<div class="f-test col align-self-center">
-	  <img src="img/bubble.png" class="rounded mx-auto d-block" />
+	<div class="f-test col align-self-center was-content">
+	  <img src="img/bubble.png" class="rounded mx-auto d-block was-picture" />
 	  <p>We promote a wait test</p>
 	  <img src="img/arrow.png" />
 	  <p>Continuous Testing</p>
 	</div>
-	<div class="f-rollback col align-self-center">
-	  <img src="img/chainsaw.png" class="rounded mx-auto d-block" />
+	<div class="f-rollback col align-self-center was-content">
+	  <img src="img/chainsaw.png" class="rounded mx-auto d-block was-picture" />
 	  <p>We promote a way to rollback</p>
 	  <img src="img/arrow.png" />
 	  <p>Journal and logging</p>
@@ -127,26 +127,26 @@
 
       <div class="container text-center">
 	<div class="row">
-	  <div class="f-deploy col align-self-center">
-	    <img src="img/connection.png" class="rounded mx-auto d-block" />
+	  <div class="f-deploy col align-self-center was-content">
+	    <img src="img/connection.png" class="rounded mx-auto d-block was-picture" />
 	    <p>We promote an easy way to deploy</p>
 	    <img src="img/arrow.png" />
 	    <p>Continuous Delivery Integration</p>
 	  </div>
-	  <div class="f-maintain col align-self-center">
-	    <img src="img/prompt.png" class="rounded mx-auto d-block" />
+	  <div class="f-maintain col align-self-center was-content">
+	    <img src="img/prompt.png" class="rounded mx-auto d-block was-picture" />
 	    <p>We promote an easy way to maintain and edit</p>
 	    <img src="img/arrow.png" />
 	    <p>Graphical Front-End</p>
 	  </div>
-	  <div class="f-control col align-self-center">
-	    <img src="img/screen.png" class="rounded mx-auto d-block" />
+	  <div class="f-control col align-self-center was-content">
+	    <img src="img/screen.png" class="rounded mx-auto d-block was-picture" />
 	    <p>We promote something to control</p>
 	    <img src="img/arrow.png" />
 	    <p>Events Managed system</p>
 	  </div>
-	  <div class="f-validation col align-self-center">
-	    <img src="img/certif.png" class="rounded mx-auto d-block" />
+	  <div class="f-validation col align-self-center was-content">
+	    <img src="img/certif.png" class="rounded mx-auto d-block was-picture" />
 	    <p>We promote validation</p>
 	    <img src="img/arrow.png" />
 	    <p>Ensuring service is up and running</p>
@@ -165,48 +165,42 @@
     
     <!-- modern configuration for everyone -->
     <div id="we-configure" class="text-center">
-      <img src="" alt="configure icon">
-      <h1>Modern Configuration for Everyone</h1>
-      <p>Unleash the full potential of your team with RunAs for
-	Configuration Management</p>
-      <p>Configuration Management focuses on establishing and
-	maintaining consitency of an application performance, and its
-	functional and physical attributes with its requirements, design
-	and operational information throughout its life</p>
-      <p>Configuration management solutions model infrastructure,
-	continously monitoring and enforcing desired configuration, and
-	automatically remediate any unexpected changes or configuration
-	drift.</p>
-      <img src="" alt="next">
+      <div class="container align-self-center">
+	<div class="container">
+	  <img src="img/modern-icon.png" alt="configure icon">
+	</div>
+	<div class="container">
+	<h1>Modern Configuration for Everyone</h1>
+	<p>Unleash the full potential of your team with RunAs for
+	  Configuration Management</p>
+	<p>Configuration Management focuses on establishing and
+	  maintaining consitency of an application performance, and its
+	  functional and physical attributes with its requirements, design
+	  and operational information throughout its life</p>
+	<p>Configuration management solutions model infrastructure,
+	  continously monitoring and enforcing desired configuration, and
+	  automatically remediate any unexpected changes or configuration
+	  drift.</p>
+	</div>
+	<div class="container">
+	  <img src="" alt="next">
+	</div>
+      </div>
     </div>
     
     <!-- modern configuration for everyone -->
     <div id="we-integrate" class="text-center">
       <div class="container">
-	<div class="row justify-content-md-center">
-	  <div class="col col-lg-2"></div>
-	  <div class="col col-md-auto">
-	    <h1>Integrations</h1>
-	    <p>Easily integrate with many services and applications</p>
+	<h1>Integrations</h1>
+	<p>Easily integrate with many services and applications</p>
 
-	    <div class="row">
-	      <div class="col">
-		<div class="container">
-		  <img src="" alt="nginx">
-		  <p>Improve the performance, reliability, and security of your applications</p>
-		</div>
-	      </div>
-	      <div class="col">
-		<div class="container">
-		  <img src="" alt="slack">
-		  <p>Stay connected with your team</p>
-		</div>
-	      </div>
-	    </div>
-	  </div>
-	  <div class="col col-lg-2"></div>
-	  <img src="" alt="next">
-	</div>
+	<img src="" alt="nginx">
+	<p>Improve the performance, reliability, and security of your applications</p>
+
+	<img src="" alt="slack">
+	<p>Stay connected with your team</p>
+	
+	<img src="" alt="next">
       </div>
     </div>
     
@@ -233,12 +227,12 @@
 	  <p>We are looking for stability and safety. These systems
 	    help us daily to achieve our goals</p>
 	  	  <img src="" alt="openbsd">
-	  <img src="" alt="proxmox">
-	  <img src="" alt="debian">
-	  <img src="" alt="freebsd">
-	  <img src="" alt="alpine">
+		  <img src="" alt="proxmox">
+		  <img src="" alt="debian">
+		  <img src="" alt="freebsd">
+		  <img src="" alt="alpine">
 	</div>
-
+	
 	<div class="container">
 	  <h2>Languages</h2>
 	  <p>Programming Languages for serious projects. That the way
@@ -285,22 +279,24 @@
 
     <!-- mailing-list address -->
     <div id="we-subscribe" class="slide">
-      <div class="row">
-	<div class="col align-self-center">
-	  <div id="we-subscribe-form" class="container align-self-center text-center">
-	    <h1>Subscribe Us</h1>
-	    <p>Subcribe to get news and updates</p>
-	  </div>
-	  <form class="d-inline-flex align-self-center justify-content-center">
-	    <div class="form-group d-inline-flex text-center">
-	      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
-	      <button type="submit" class="btn btn-primary btn-block">Subscribe now</button>
+      <div class="container">
+	<div class="row">
+	  <div class="col align-self-center">
+	    <div id="we-subscribe-form" class="container align-self-center text-center">
+	      <h1>Subscribe Us</h1>
+	      <p>Subcribe to get news and updates</p>
 	    </div>
-	  </form>
-	</div>
-	<div class="col">
-      	  <div class="align-self-center">
-	    <img src="img/t-shirt.png" alt="t-shirt">
+	    <form class="d-inline-flex align-self-center justify-content-center">
+	      <div class="d-inline-flex text-center">
+		<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+		<button type="submit" class="btn-block">Subscribe now</button>
+	      </div>
+	    </form>
+	  </div>
+	  <div class="col">
+      	    <div class="align-self-center">
+	      <img src="img/t-shirt.png" alt="t-shirt">
+	    </div>
 	  </div>
 	</div>
       </div>
