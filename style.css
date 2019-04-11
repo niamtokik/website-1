@@ -289,10 +289,19 @@ body {
 
 /**/
 #we-footer {
-    padding-top: 2rem;
+    padding-top: 3rem;
     background-color: #282828;
     color: white;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+    font-size: small;
+}
+
+#we-footer h1 {
+    font-size: large;
+}
+
+#we-footer p {
+    font-size: small;
 }
 
 /**/
